@@ -48,4 +48,14 @@ select * from CUSTOMERS;
 insert into ORDERS(Onum,Amt,Odate,Cnum,Snum) values (3001,18.69,STR_TO_DATE('03-Oct-1990', '%d-%M-%Y'),2008,1007);
 insert into ORDERS(Onum,Amt,Odate,Cnum,Snum) values (3003,767.19,STR_TO_DATE('03-Oct-1990', '%d-%M-%Y'),2001,1001);
 insert into ORDERS(Onum,Amt,Odate,Cnum,Snum) values (3002,1900.10,STR_TO_DATE('03-Oct-1990', '%d-%M-%Y'),2007,1004);
+insert into ORDERS(Onum,Amt,Odate,Cnum,Snum) values (3005,5160.45,STR_TO_DATE('03-Oct-1990', '%d-%M-%Y'),2003,1002);
+insert into ORDERS(Onum,Amt,Odate,Cnum,Snum) values (3006,1096.16,STR_TO_DATE('03-Oct-1990', '%d-%M-%Y'),2008,1007);
+insert into ORDERS(Onum,Amt,Odate,Cnum,Snum) values (3009,1713.23,STR_TO_DATE('04-Oct-1990', '%d-%M-%Y'),2002,1003);
+insert into ORDERS(Onum,Amt,Odate,Cnum,Snum) values (3007,75.75,STR_TO_DATE('04-Oct-1990', '%d-%M-%Y'),2004,1002);
+insert into ORDERS(Onum,Amt,Odate,Cnum,Snum) values (3008,4723.00,STR_TO_DATE('05-Oct-1990', '%d-%M-%Y'),2006,1001);
+insert into ORDERS(Onum,Amt,Odate,Cnum,Snum) values (3010,1309.95,STR_TO_DATE('06-Oct-1990', '%d-%M-%Y'),2004,1002);
+insert into ORDERS(Onum,Amt,Odate,Cnum,Snum) values (3011,9891.88,STR_TO_DATE('06-Oct-1990', '%d-%M-%Y'),2006,1001);
 select * from ORDERS;
+
+
+update orders set Onum=3011 where Onum=30011;
